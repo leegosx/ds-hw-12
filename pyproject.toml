@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ds-hw-12"
+version = "0.1"
+description = "-"
+authors = ["Your Name <you@example.com>"]
+license = "Mit License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+spacy = "^3.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
